@@ -1,6 +1,8 @@
+import 'package:deber_activities/ejercicio5.dart';
 import 'package:flutter/material.dart';
-import 'package:deber_activities/ejercicio1.dart';
+import 'package:deber_activities/Ejercicio1.dart';
 import 'package:deber_activities/ejercicio2.dart';
+import 'package:deber_activities/ejercicio6.dart';
 import 'models/activitymenu.dart';
 
 class Menu extends StatefulWidget {
@@ -12,6 +14,8 @@ class _MenuState extends State<Menu> {
   final Map<int, Widget> exerciseScreens = {
     1: Ejercicio1(),
     2: Ejercicio2(),
+    5: Ejercicio5(),
+    6: Ejercicio6(),
    // 3: Ejercicio3(),
     // Añade más ejercicios aquí
   };
